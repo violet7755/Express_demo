@@ -1,0 +1,52 @@
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7f8;
+}
+
+header {
+  height: 40px;
+  background-color: #78bdca;
+}
+
+nav {
+  max-width: 780px;
+  /*780+20*2=820 */
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  /* 把容器變成 flex 容器 */
+  align-items: center;
+  /* 垂直置中 */
+  justify-content: space-between;
+  /* 水平分散 */
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 10px 5px;
+  float: left;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px 15px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+.nav-title {
+  color: #ffffff;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
